@@ -7,7 +7,7 @@ import { Animation } from "react-native-animatable";
 export default function ErrorU() {
     const navigation = useNavigation()
     return(
-        <View>
+        <View style={styles.container}>
 
         </View>
     );
