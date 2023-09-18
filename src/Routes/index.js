@@ -5,6 +5,8 @@ import BemVindo from '../pages/BemVindo'
 import TelaInicial from '../pages/TelaInicial'
 import ViewName from '../pages/ViewName'
 import ViewText from '../pages/ViewText'
+import ErrorU from '../pages/ErrorU'
+import ErrorD from '../pages/ErrorD'
 
 const Stack = createNativeStackNavigator();
 
@@ -34,6 +36,16 @@ export default function Routes() {
             <Stack.Screen
                 name="ViewText"
                 component= { ViewText }
+                options= { { headerShown: false} }
+                />
+            <Stack.Screen
+                name="ErrorU"
+                component= { ErrorU }
+                options= { { headerShown: false} }
+                />
+            <Stack.Screen
+                name="ErrorD"
+                component= { ErrorD }
                 options= { { headerShown: false} }
                 />
             </Stack.Navigator>

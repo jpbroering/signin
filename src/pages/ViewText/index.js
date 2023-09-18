@@ -12,7 +12,7 @@ export default function ViewText() {
             <Text style={styles.title}>Error 404</Text>
             <TouchableOpacity 
             style={styles.buttonRegister}
-            onPress={ ()=> navigation.navigate('Error404')}
+            onPress={ ()=> navigation.navigate('ErrorU')}
             >
               <Text style={styles.textRegister}>Clique aqui</Text>
             </TouchableOpacity>
@@ -21,7 +21,7 @@ export default function ViewText() {
             <Text style={styles.title}>Error 124</Text>
             <TouchableOpacity 
             style={styles.buttonRegister}
-            onPress={ ()=> navigation.navigate('Error124')}
+            onPress={ ()=> navigation.navigate('ErrorD')}
             >
               <Text style={styles.textRegister}>Clique aqui</Text>
             </TouchableOpacity>
